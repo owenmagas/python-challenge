@@ -49,7 +49,7 @@ with open(filepath, 'r') as ed:
     correy_perc, correy, li_perc, li, otooley_perc, otooley,
     get_key(max(dict.values()))))
 
-    with open(filepath1, 'a') as o:
+    with open(filepath1, 'w') as o:
         o.write("Election Results\n---------------------------------\n"
     "Total Votes: {}\n"
     "Khan: {:.4f}% ({})\n"
